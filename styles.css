@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url("./styles/grafico.css");
+@import url("./styles/cabecalho.css");
+@import url("./styles/rodape.css");
+@import url("./styles/sidebar.css");
+
+:root {
+    --avermelhado: #ffa6a6;
+    --vermelho: #fd3e3e;
+    --cinza-claro: #c0c0c0;
+    --cinza-escuro: #818181;
+    --cinza: #444444;
+    --fonte-titulo: 'Fugaz One', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 29px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20% auto;
+    background-color: var(--avermelhado);
+}
